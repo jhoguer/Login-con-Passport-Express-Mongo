@@ -1,0 +1,33 @@
+{
+  "name": "login-con-passport-express-mongo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhoguer/Login-con-Passport-Express-Mongo.git"
+  },
+  "author": "Jhon Guerrero",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jhoguer/Login-con-Passport-Express-Mongo/issues"
+  },
+  "homepage": "https://github.com/jhoguer/Login-con-Passport-Express-Mongo#readme",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "connect-flash": "^0.1.1",
+    "ejs-mate": "^3.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.20",
+    "morgan": "^1.10.0",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
